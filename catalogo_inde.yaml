@@ -1,0 +1,631 @@
+- descricao: ANA - Agência Nacional de Águas e Saneamento Básico
+  url: https://www.snirh.gov.br/arcgis/services/INDE/Camadas/MapServer/WMSServer
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: false
+  wcsAvailable: false
+  wmsGetCapabilities: https://www.snirh.gov.br/arcgis/services/INDE/Camadas/MapServer/WMSServer?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: null
+  wcsGetCapabilities: null
+- descricao: 'ANATEL - Agência Nacional de Telecomunicações '
+  url: https://sistemas.anatel.gov.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://sistemas.anatel.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://sistemas.anatel.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://sistemas.anatel.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: ANM - Agência Nacional de Mineração
+  url: https://geoservicos.inde.gov.br/geoserver/ANM/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/ANM/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/ANM/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/ANM/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: ANP - Agência Nacional do Petróleo, Gás Natural e Biocombustíveis
+  url: https://gishub.anp.gov.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://gishub.anp.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://gishub.anp.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://gishub.anp.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: ANTT - Agência Nacional de Transporte Terrestres
+  url: https://geoservicos.inde.gov.br/geoserver/ANTT/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/ANTT/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/ANTT/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/ANTT/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'BNDES - Banco Nacional de Desenvolvimento Econômico e Social '
+  url: https://geoservicos.inde.gov.br/geoserver/BNDES/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/BNDES/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/BNDES/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/BNDES/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: Censipam - Centro Gestor e Operacional do Sistema de Proteção da Amazônia
+  url: http://panorama.sipam.gov.br/geoserver/publico/ows/
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: http://panorama.sipam.gov.br/geoserver/publico/ows/?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: http://panorama.sipam.gov.br/geoserver/publico/ows/?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: http://panorama.sipam.gov.br/geoserver/publico/ows/?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: CPRM - Serviço Geológico do Brasil
+  url: https://geoservicos.sgb.gov.br/geoserver/geologia/ows/
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: false
+  wmsGetCapabilities: https://geoservicos.sgb.gov.br/geoserver/geologia/ows/?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.sgb.gov.br/geoserver/geologia/ows/?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: null
+- descricao: DNIT - Departamento Nacional de Infraestrutura de Transportes
+  url: https://geoservicos.inde.gov.br/geoserver/DNIT/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/DNIT/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/DNIT/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/DNIT/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'EB/DSG - Diretoria de Serviço Geográfico do Exército Brasileiro '
+  url: https://bdgex.eb.mil.br/mapcache3857
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: false
+  wcsAvailable: false
+  wmsGetCapabilities: https://bdgex.eb.mil.br/mapcache3857?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: null
+  wcsGetCapabilities: null
+- descricao: 'EMBRAPA - Empresa Brasileira de Pesquisa Agropecuária '
+  url: https://geoinfo.dados.embrapa.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoinfo.dados.embrapa.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoinfo.dados.embrapa.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoinfo.dados.embrapa.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: EPE - Empresa de Pesquisa Energética
+  url: https://geoservicos.inde.gov.br/geoserver/EPE/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/EPE/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/EPE/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/EPE/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: FAB/COMAE - Comando de Operações Aeroespaciais
+  url: https://geoservicos.inde.gov.br/geoserver/COMAE/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/COMAE/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/COMAE/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/COMAE/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: FUNAI - Fundação Nacional dos Povos Indígenas
+  url: https://geoserver.funai.gov.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoserver.funai.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoserver.funai.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoserver.funai.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: FUNAI/CMR - Centro de Monitoramento Remoto da Funai
+  url: https://cmr.funai.gov.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://cmr.funai.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://cmr.funai.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://cmr.funai.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'IBAMA - Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais
+    Renováveis '
+  url: https://siscom.ibama.gov.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://siscom.ibama.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://siscom.ibama.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://siscom.ibama.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'IBGE - Instituto Brasileiro de Geografia e Estatística '
+  url: https://geoservicos.ibge.gov.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.ibge.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.ibge.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.ibge.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: IBGE/CENSO 2022 - IBGE/ Censo Demográfico 2022
+  url: https://geoservicoscenso2022.ibge.gov.br/geoserver/censo2022/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicoscenso2022.ibge.gov.br/geoserver/censo2022/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicoscenso2022.ibge.gov.br/geoserver/censo2022/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicoscenso2022.ibge.gov.br/geoserver/censo2022/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'IBGE/ODS - Objetivos de Desenvolvimento Sustentável '
+  url: https://geoservicos.ibge.gov.br/geoserver/ODS/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.ibge.gov.br/geoserver/ODS/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.ibge.gov.br/geoserver/ODS/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.ibge.gov.br/geoserver/ODS/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'ICA - Instituto de Cartografia Aeronáutica '
+  url: https://geoaisweb.decea.gov.br/geoserver/ICA/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoaisweb.decea.gov.br/geoserver/ICA/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoaisweb.decea.gov.br/geoserver/ICA/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoaisweb.decea.gov.br/geoserver/ICA/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: ICMBIO - Instituto Chico Mendes de Conservação da Biodiversidade
+  url: https://geoservicos.inde.gov.br/geoserver/ICMBio/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/ICMBio/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/ICMBio/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/ICMBio/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'INPE - Instituto Nacional de Pesquisas Espaciais '
+  url: https://terrabrasilis.dpi.inpe.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://terrabrasilis.dpi.inpe.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://terrabrasilis.dpi.inpe.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://terrabrasilis.dpi.inpe.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'IPHAN - Instituto do Patrimônio Histórico e Artístico Nacional '
+  url: http://portal.iphan.gov.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: http://portal.iphan.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: http://portal.iphan.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: http://portal.iphan.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: MAPA - Ministério da Agricultura e Pecuária
+  url: https://geoservicos.inde.gov.br/geoserver/MAPA/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MAPA/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MAPA/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MAPA/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'MB/COMPAAz - Comando de Operações Marítimas e Proteção da Amazônia Azul '
+  url: https://geoservicos.inde.gov.br/geoserver/COMPAAz/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/COMPAAz/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/COMPAAz/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/COMPAAz/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: MB/DHN - Diretoria de Hidrografia e Navegação
+  url: http://idem.dhn.mar.mil.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: false
+  wmsGetCapabilities: http://idem.dhn.mar.mil.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: http://idem.dhn.mar.mil.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: null
+- descricao: MB/DPC- Diretoria de Portos e Costas
+  url: https://geoservicos.inde.gov.br/geoserver/DPC/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/DPC/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/DPC/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/DPC/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: MB/DPHDM - Diretoria do Patrimônio Histórico e Documentação da Marinha
+  url: https://geoservicos.inde.gov.br/geoserver/DPHDM/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/DPHDM/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/DPHDM/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/DPHDM/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: MB/PEM - Planejamento Espacial Marinho
+  url: https://geoservicos.inde.gov.br/geoserver/PEM/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: false
+  wcsAvailable: false
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/PEM/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: null
+  wcsGetCapabilities: null
+- descricao: MDIC - Ministério do Desenvolvimento, Indústria, Comércio e Serviços
+  url: https://geoservicos.inde.gov.br/geoserver/MDIC/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MDIC/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MDIC/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MDIC/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'MDR/SEDEC - Secretaria Nacional de Proteção e Defesa Civil '
+  url: https://geoserver.mdr.gov.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoserver.mdr.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoserver.mdr.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoserver.mdr.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: MMA - Ministério do Meio Ambiente e Mudança do Clima
+  url: https://geoservicos.inde.gov.br/geoserver/MMA/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: MP - Ministério do Planejamento e Orçamento
+  url: https://geoservicos.inde.gov.br/geoserver/MPOG/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MPOG/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MPOG/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MPOG/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: MPA - Ministério de Pesca e Aquicultura
+  url: https://geoservicos.inde.gov.br/geoserver/MPA/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MPA/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MPA/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MPA/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: MTR - Ministério dos Transportes
+  url: https://geoservicos.inde.gov.br/geoserver/MInfra/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MInfra/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MInfra/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MInfra/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: MTUR - Ministério do Turismo
+  url: https://geoservicos.inde.gov.br/geoserver/MTU/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MTU/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MTU/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/MTU/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: PGGM - Programa de Geologia e Geofísica Marinha
+  url: https://geoservicos.inde.gov.br/geoserver/PGGM/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/PGGM/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/PGGM/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/PGGM/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'SFB - Serviço Florestal do Brasil '
+  url: http://sistemas.florestal.gov.br/geoserver/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: http://sistemas.florestal.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: http://sistemas.florestal.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: http://sistemas.florestal.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: SPM - Secretaria de Políticas para as Mulheres
+  url: https://geoservicos.inde.gov.br/geoserver/SPM/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/SPM/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/SPM/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/SPM/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: VALEC - Engenharia, Construções e Ferrovias S.A.
+  url: https://geoservicos.inde.gov.br/geoserver/VALEC/ows
+  nivel_no: Nacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/VALEC/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/VALEC/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/VALEC/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: IDE (DF) - Infraestrutura de Dados Espaciais do Distrito Federal
+  url: https://www.geoservicos.ide.df.gov.br/arcgis/services/Publico/IDEDF/MapServer/WmsServer
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: false
+  wcsAvailable: false
+  wmsGetCapabilities: https://www.geoservicos.ide.df.gov.br/arcgis/services/Publico/IDEDF/MapServer/WmsServer?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: null
+  wcsGetCapabilities: null
+- descricao: 'IDE-GEOBASES  (ES) - Sistema Integrado de Bases Geoespaciais do Estado
+    do Espírito Santo '
+  url: https://ide.geobases.es.gov.br/geoserver/ows
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://ide.geobases.es.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://ide.geobases.es.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://ide.geobases.es.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: IDE/Sisema (MG) - IDE - Sistema Estadual de Meio Ambiente e Recursos
+    Hídricos
+  url: https://geoserver.meioambiente.mg.gov.br/ows/
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoserver.meioambiente.mg.gov.br/ows/?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoserver.meioambiente.mg.gov.br/ows/?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoserver.meioambiente.mg.gov.br/ows/?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'IDEA (SP) - Infraestrutura de Dados Espaciais Ambientais do Estado de
+    São Paulo '
+  url: http://datageo.ambiente.sp.gov.br/geoserver/ows
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: http://datageo.ambiente.sp.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: http://datageo.ambiente.sp.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: http://datageo.ambiente.sp.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'IDE (SP) - Infraestrutura de Dados Espaciais de São Paulo '
+  url: http://ide.emplasa.sp.gov.br/geoserver/ows
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: http://ide.emplasa.sp.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: http://ide.emplasa.sp.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: http://ide.emplasa.sp.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: IEDE (RS) - Infraestrutura Estadual de Dados Espaciais do Rio Grande
+    do Sul
+  url: https://iede.rs.gov.br/server/services/INDE/IEDE_RS/MapServer/WMSServer
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: false
+  wcsAvailable: false
+  wmsGetCapabilities: https://iede.rs.gov.br/server/services/INDE/IEDE_RS/MapServer/WMSServer?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: null
+  wcsGetCapabilities: null
+- descricao: 'INEA (RJ) - Instituto Estadual do Ambiente '
+  url: https://geoservicos.inde.gov.br/geoserver/INEA/ows
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/INEA/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/INEA/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/INEA/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: PRODEMG (MG) - Companhia de Tecnologia da Informação do Estado de Minas
+    Gerais
+  url: http://geoserver.prodemge.gov.br/geoserver/ows
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: http://geoserver.prodemge.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: http://geoserver.prodemge.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: http://geoserver.prodemge.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: SEMA (CE) - Secretaria do Meio Ambiente e Mudança do Clima do Estado
+    do Ceará
+  url: https://pedea.sema.ce.gov.br/geoserver/inde/wms
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: false
+  wcsAvailable: false
+  wmsGetCapabilities: https://pedea.sema.ce.gov.br/geoserver/inde/wms?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: null
+  wcsGetCapabilities: null
+- descricao: SEMACE (CE) - Superintendência Estadual do Meio Ambiente do Ceará
+  url: https://geoservicos.inde.gov.br/geoserver/SEMACECE/ows
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/SEMACECE/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/SEMACECE/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/SEMACECE/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'SEPLAG (AL) - Secretaria de Estado do Planejamento, Gestão  e Patrimônio
+    de Alagoas '
+  url: http://geo.seplande.al.gov.br/teogc/terraogcwms.cgi
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: false
+  wcsAvailable: false
+  wmsGetCapabilities: http://geo.seplande.al.gov.br/teogc/terraogcwms.cgi?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: null
+  wcsGetCapabilities: null
+- descricao: SEPLAN (TO) - Secretaria do Planejamento e Orçamento do Estado do Tocantins
+  url: https://geoportal.to.gov.br/geoserver/ows
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoportal.to.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoportal.to.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoportal.to.gov.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: TCE-RO - Tribunal de Contas do Estado de Rondônia
+  url: https://geoserver.tcero.tc.br/geoserver/ows
+  nivel_no: Subnacional
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoserver.tcero.tc.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoserver.tcero.tc.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoserver.tcero.tc.br/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: FMADS - Fundação Municipal do Meio Ambiente e Desenvolvimento Sustentável
+    de São José (SC)
+  url: https://geoservicos.inde.gov.br/geoserver/SCSJFMADS/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/SCSJFMADS/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/SCSJFMADS/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/SCSJFMADS/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: IPLANFOR (CE) - Instituto de Planejamento de Fortaleza
+  url: https://mapas.fortaleza.ce.gov.br/api/geoserver/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://mapas.fortaleza.ce.gov.br/api/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://mapas.fortaleza.ce.gov.br/api/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://mapas.fortaleza.ce.gov.br/api/geoserver/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: SEFAZ - Secretaria Municipal da Fazenda de Salvador (BA)
+  url: https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: SEFIN - Secretaria Municipal das Finanças de Fortaleza (CE)
+  url: https://geoserver.sefin.fortaleza.ce.gov.br/geoserver/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: false
+  wmsGetCapabilities: https://geoserver.sefin.fortaleza.ce.gov.br/geoserver/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoserver.sefin.fortaleza.ce.gov.br/geoserver/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: null
+- descricao: PRODATER - Empresa Teresinense de Processamento de Dados (PI)
+  url: https://geoservicos.inde.gov.br/geoserver/PIPRODATER/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/PIPRODATER/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/PIPRODATER/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/PIPRODATER/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: Prefeitura de Angra dos Reis (RJ)
+  url: https://siga.angra.rj.gov.br/geoserver/ows/
+  nivel_no: Governo Local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://siga.angra.rj.gov.br/geoserver/ows/?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://siga.angra.rj.gov.br/geoserver/ows/?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://siga.angra.rj.gov.br/geoserver/ows/?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: Prefeitura de Belo Horizonte (MG)
+  url: http://bhmap.pbh.gov.br/v2/api/idebhgeo/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: http://bhmap.pbh.gov.br/v2/api/idebhgeo/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: http://bhmap.pbh.gov.br/v2/api/idebhgeo/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: http://bhmap.pbh.gov.br/v2/api/idebhgeo/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: Prefeitura de Cabo Frio (RJ)
+  url: https://geoservicos.inde.gov.br/geoserver/RJPCaboFrio/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/RJPCaboFrio/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/RJPCaboFrio/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/RJPCaboFrio/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: Prefeitura de Juazeiro do Norte (CE)
+  url: https://geoservicos.inde.gov.br/geoserver/CEPJuazeiroNorte/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/CEPJuazeiroNorte/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/CEPJuazeiroNorte/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/CEPJuazeiroNorte/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: Prefeitura do Município de São Paulo (SP) - vetor
+  url: http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: false
+  wcsAvailable: false
+  wmsGetCapabilities: http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: null
+  wcsGetCapabilities: null
+- descricao: Prefeitura do Município de São Paulo (SP) - raster
+  url: http://raster.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: false
+  wcsAvailable: false
+  wmsGetCapabilities: http://raster.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: null
+  wcsGetCapabilities: null
+- descricao: Prefeitura Municipal de Santo André
+  url: https://sigamapa.santoandre.sp.gov.br/geoserver/siga/ows
+  nivel_no: Governo local
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://sigamapa.santoandre.sp.gov.br/geoserver/siga/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://sigamapa.santoandre.sp.gov.br/geoserver/siga/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://sigamapa.santoandre.sp.gov.br/geoserver/siga/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: IEDE/FJP (MG) - Infraestrutura Estadual de Dados Espaciais -  Fundação
+    João Pinheiro
+  url: https://geoserver.fjp.mg.gov.br/ows
+  nivel_no: Universidade/Academia
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoserver.fjp.mg.gov.br/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoserver.fjp.mg.gov.br/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoserver.fjp.mg.gov.br/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: IFPI - Instituto Federal do Piauí - Campus Teresina
+  url: https://geoservicos.inde.gov.br/geoserver/IFPI/ows
+  nivel_no: Universidade/Academia
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/IFPI/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/IFPI/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/IFPI/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: 'UFABC (SP) - Universidade Federal do ABC '
+  url: https://geoservicos.inde.gov.br/geoserver/UFABC/ows
+  nivel_no: Universidade/Academia
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/UFABC/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/UFABC/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/UFABC/ows?service=wcs&request=GetCapabilities&version=1.1.1
+- descricao: UNILA - Universidade Federal da Integração Latino-Americana
+  url: https://geoservicos.inde.gov.br/geoserver/UNILA/ows
+  nivel_no: Universidade/Academia
+  wmsAvailable: true
+  wfsAvailable: true
+  wcsAvailable: true
+  wmsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/UNILA/ows?service=wms&request=GetCapabilities&version=1.3.0
+  wfsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/UNILA/ows?service=wfs&request=GetCapabilities&version=2.0.0
+  wcsGetCapabilities: https://geoservicos.inde.gov.br/geoserver/UNILA/ows?service=wcs&request=GetCapabilities&version=1.1.1
