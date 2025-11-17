@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "inde-geospatial": {
+      "command": "python3",
+      "args": [
+        "/home/user/mcp_inde/mcp_inde_server_main.py"
+      ],
+      "env": {
+        "PYTHONPATH": "/home/user/mcp_inde",
+        "CATALOG_PATH": "/home/user/mcp_inde/catalogo_inde.yaml"
+      },
+      "description": "Servidor MCP para acesso a dados geoespaciais brasileiros da INDE (Infraestrutura Nacional de Dados Espaciais). Fornece ferramentas para descobrir, extrair e analisar dados de órgãos como ANATEL, ANA, IBGE, INCRA e outros."
+    }
+  }
+}

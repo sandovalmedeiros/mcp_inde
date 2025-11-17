@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDE MCP - Interface Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-globe-americas"></i>
+                    <h1>INDE MCP</h1>
+                </div>
+                <div class="header-info">
+                    <div class="connection-status" id="connectionStatus">
+                        <i class="fas fa-circle"></i>
+                        <span>Desconectado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav class="nav-menu">
+                <h3>Ferramentas MCP</h3>
+                <ul>
+                    <li><a href="#dashboard" class="nav-link active" data-section="dashboard">
+                        <i class="fas fa-home"></i> Dashboard
+                    </a></li>
+                    <li><a href="#list-services" class="nav-link" data-section="list-services">
+                        <i class="fas fa-list"></i> Listar Serviços
+                    </a></li>
+                    <li><a href="#discover-layers" class="nav-link" data-section="discover-layers">
+                        <i class="fas fa-layer-group"></i> Descobrir Camadas
+                    </a></li>
+                    <li><a href="#extract-data" class="nav-link" data-section="extract-data">
+                        <i class="fas fa-download"></i> Extrair Dados
+                    </a></li>
+                    <li><a href="#analyze-capabilities" class="nav-link" data-section="analyze-capabilities">
+                        <i class="fas fa-chart-bar"></i> Analisar Capacidades
+                    </a></li>
+                    <li><a href="#intelligent-analysis" class="nav-link" data-section="intelligent-analysis">
+                        <i class="fas fa-brain"></i> Análise Inteligente
+                    </a></li>
+                    <li><a href="#generate-report" class="nav-link" data-section="generate-report">
+                        <i class="fas fa-file-alt"></i> Gerar Relatório
+                    </a></li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="info-box">
+                    <h4><i class="fas fa-info-circle"></i> Sobre</h4>
+                    <p>Interface web para interagir com o servidor MCP INDE de dados geoespaciais brasileiros.</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section active">
+                <div class="section-header">
+                    <h2><i class="fas fa-home"></i> Dashboard</h2>
+                    <p>Bem-vindo à interface do INDE MCP - Acesso a dados geoespaciais brasileiros</p>
+                </div>
+
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-icon blue">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Serviços INDE</h3>
+                            <p>Acesso a serviços WFS, WMS e OWS de órgãos brasileiros como ANATEL, ANA, IBGE e mais.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon green">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Descoberta de Camadas</h3>
+                            <p>Explore camadas disponíveis em cada serviço geoespacial automaticamente.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon orange">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Extração de Dados</h3>
+                            <p>Extraia dados geoespaciais em formatos GeoJSON e CSV para análise.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon purple">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Análise Inteligente</h3>
+                            <p>Análises automatizadas usando agentes AI para insights avançados.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-start">
+                    <h3><i class="fas fa-rocket"></i> Início Rápido</h3>
+                    <ol>
+                        <li>Use <strong>"Listar Serviços"</strong> para ver todos os serviços disponíveis</li>
+                        <li>Selecione um órgão (ex: ANATEL, ANA) para filtrar</li>
+                        <li>Use <strong>"Descobrir Camadas"</strong> para ver camadas de um serviço</li>
+                        <li>Use <strong>"Extrair Dados"</strong> para baixar dados de uma camada</li>
+                        <li>Use <strong>"Gerar Relatório"</strong> para criar relatórios automáticos</li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- List Services Section -->
+            <section id="list-services" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-list"></i> Listar Serviços</h2>
+                    <p>Liste todos os serviços geoespaciais disponíveis na INDE</p>
+                </div>
+
+                <div class="form-container">
+                    <form id="listServicesForm">
+                        <div class="form-group">
+                            <label for="orgaoFilter">
+                                <i class="fas fa-building"></i> Filtrar por Órgão (opcional)
+                            </label>
+                            <input type="text" id="orgaoFilter" placeholder="Ex: ANATEL, ANA, IBGE">
+                            <small>Deixe em branco para listar todos os serviços</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Listar Serviços
+                        </button>
+                    </form>
+                </div>
+
+                <div id="listServicesResult" class="result-container"></div>
+            </section>
+
+            <!-- Discover Layers Section -->
+            <section id="discover-layers" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-layer-group"></i> Descobrir Camadas</h2>
+                    <p>Descubra camadas disponíveis em um serviço específico</p>
+                </div>
+
+                <div class="form-container">
+                    <form id="discoverLayersForm">
+                        <div class="form-group">
+                            <label for="layerOrgao">
+                                <i class="fas fa-building"></i> Órgão *
+                            </label>
+                            <input type="text" id="layerOrgao" required placeholder="Ex: ANATEL">
+                        </div>
+                        <div class="form-group">
+                            <label for="layerServiceName">
+                                <i class="fas fa-server"></i> Nome do Serviço *
+                            </label>
+                            <input type="text" id="layerServiceName" required placeholder="Ex: telecomunicações">
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Descobrir Camadas
+                        </button>
+                    </form>
+                </div>
+
+                <div id="discoverLayersResult" class="result-container"></div>
+            </section>
+
+            <!-- Extract Data Section -->
+            <section id="extract-data" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-download"></i> Extrair Dados</h2>
+                    <p>Extraia dados de uma camada específica</p>
+                </div>
+
+                <div class="form-container">
+                    <form id="extractDataForm">
+                        <div class="form-group">
+                            <label for="extractOrgao">
+                                <i class="fas fa-building"></i> Órgão *
+                            </label>
+                            <input type="text" id="extractOrgao" required placeholder="Ex: ANATEL">
+                        </div>
+                        <div class="form-group">
+                            <label for="extractServiceName">
+                                <i class="fas fa-server"></i> Nome do Serviço *
+                            </label>
+                            <input type="text" id="extractServiceName" required placeholder="Ex: telecomunicações">
+                        </div>
+                        <div class="form-group">
+                            <label for="extractLayer">
+                                <i class="fas fa-layer-group"></i> Camada *
+                            </label>
+                            <input type="text" id="extractLayer" required placeholder="Nome da camada">
+                        </div>
+                        <div class="form-group">
+                            <label for="extractMaxFeatures">
+                                <i class="fas fa-hashtag"></i> Máximo de Registros
+                            </label>
+                            <input type="number" id="extractMaxFeatures" value="1000" min="1" max="5000">
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Extrair Dados
+                        </button>
+                    </form>
+                </div>
+
+                <div id="extractDataResult" class="result-container"></div>
+            </section>
+
+            <!-- Analyze Capabilities Section -->
+            <section id="analyze-capabilities" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-bar"></i> Analisar Capacidades</h2>
+                    <p>Analise todas as capacidades de dados de um órgão</p>
+                </div>
+
+                <div class="form-container">
+                    <form id="analyzeCapabilitiesForm">
+                        <div class="form-group">
+                            <label for="analyzeOrgao">
+                                <i class="fas fa-building"></i> Órgão *
+                            </label>
+                            <input type="text" id="analyzeOrgao" required placeholder="Ex: ANATEL">
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-chart-bar"></i> Analisar Capacidades
+                        </button>
+                    </form>
+                </div>
+
+                <div id="analyzeCapabilitiesResult" class="result-container"></div>
+            </section>
+
+            <!-- Intelligent Analysis Section -->
+            <section id="intelligent-analysis" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-brain"></i> Análise Inteligente</h2>
+                    <p>Execute análise inteligente usando agentes AI (CrewAI)</p>
+                </div>
+
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Esta funcionalidade usa agentes AI especializados para análise profunda dos dados. Pode levar alguns minutos.</p>
+                </div>
+
+                <div class="form-container">
+                    <form id="intelligentAnalysisForm">
+                        <div class="form-group">
+                            <label for="intelligentOrgao">
+                                <i class="fas fa-building"></i> Órgão *
+                            </label>
+                            <input type="text" id="intelligentOrgao" required placeholder="Ex: ANATEL">
+                        </div>
+                        <div class="form-group">
+                            <label for="intelligentObjetivo">
+                                <i class="fas fa-bullseye"></i> Objetivo da Análise *
+                            </label>
+                            <textarea id="intelligentObjetivo" required rows="3" placeholder="Ex: Analisar infraestrutura de telecomunicações no Brasil"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-brain"></i> Executar Análise Inteligente
+                        </button>
+                    </form>
+                </div>
+
+                <div id="intelligentAnalysisResult" class="result-container"></div>
+            </section>
+
+            <!-- Generate Report Section -->
+            <section id="generate-report" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-file-alt"></i> Gerar Relatório</h2>
+                    <p>Gere relatórios automáticos sobre dados de um órgão</p>
+                </div>
+
+                <div class="form-container">
+                    <form id="generateReportForm">
+                        <div class="form-group">
+                            <label for="reportOrgao">
+                                <i class="fas fa-building"></i> Órgão *
+                            </label>
+                            <input type="text" id="reportOrgao" required placeholder="Ex: ANATEL">
+                        </div>
+                        <div class="form-group">
+                            <label for="reportFormat">
+                                <i class="fas fa-file-code"></i> Formato
+                            </label>
+                            <select id="reportFormat">
+                                <option value="markdown">Markdown</option>
+                                <option value="json">JSON</option>
+                                <option value="html">HTML</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-file-alt"></i> Gerar Relatório
+                        </button>
+                    </form>
+                </div>
+
+                <div id="generateReportResult" class="result-container"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="spinner"></div>
+        <p>Processando...</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
